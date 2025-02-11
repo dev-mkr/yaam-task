@@ -1,0 +1,57 @@
+{
+  "name": "yaam-task",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc -b && vite build",
+    "lint": "eslint .",
+    "preview": "vite preview",
+    "format": "prettier --ignore-path .gitignore --write \"src/**/*.{css,scss,ts,tsx,json,md}\"",
+    "tsc": "tsc -b",
+    "postinstall": "husky install",
+    "prepare": "husky",
+    "test:unit": "vitest"
+  },
+  "dependencies": {
+    "lucide-react": "^0.474.0",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-error-boundary": "^5.0.0"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.17.0",
+    "@testing-library/dom": "^10.4.0",
+    "@testing-library/react": "^16.2.0",
+    "@testing-library/jest-dom": "^6.6.3",
+    "@types/node": "^22.10.10",
+    "@types/react": "^19.0.8",
+    "@types/react-dom": "^19.0.3",
+    "@vitejs/plugin-react-swc": "^3.5.0",
+    "autoprefixer": "10.4.16",
+    "eslint": "^9.17.0",
+    "eslint-plugin-react-hooks": "^5.0.0",
+    "eslint-plugin-react-refresh": "^0.4.16",
+    "globals": "^15.14.0",
+    "husky": "^9.1.7",
+    "jsdom": "^26.0.0",
+    "lint-staged": "^15.4.2",
+    "postcss": "8.4.33",
+    "prettier": "^3.4.2",
+    "prettier-plugin-tailwindcss": "^0.6.10",
+    "tailwindcss": "3.4.1",
+    "typescript": "~5.6.2",
+    "typescript-eslint": "^8.18.2",
+    "vite": "^6.0.5",
+    "vitest": "^3.0.4"
+  },
+  "lint-staged": {
+    "**/*.{ts,tsx}": [
+      "yarn format",
+      "yarn lint",
+      "bash -c 'yarn tsc'",
+      "yarn test:unit run"
+    ]
+  }
+}
