@@ -12,7 +12,8 @@
     "tsc": "tsc -b",
     "postinstall": "husky install",
     "prepare": "husky",
-    "test:unit": "vitest"
+    "test:unit": "vitest",
+    "server": "json-server --watch data/db.json --port 3001"
   },
   "dependencies": {
     "@headlessui/react": "^2.2.0",
@@ -42,6 +43,7 @@
     "globals": "^15.14.0",
     "husky": "^9.1.7",
     "jsdom": "^26.0.0",
+    "json-server": "^1.0.0-beta.3",
     "lint-staged": "^15.4.2",
     "postcss": "8.4.33",
     "prettier": "^3.4.2",
