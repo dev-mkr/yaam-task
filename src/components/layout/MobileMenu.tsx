@@ -1,7 +1,7 @@
 import { FC, useState } from "react";
 import { Dialog, DialogPanel } from "@headlessui/react";
 import { Menu, X } from "lucide-react";
-import { SidebarRoute } from "./layout.types";
+import { SidebarRoute } from "./layout.type";
 import { Link } from "react-router-dom";
 import clsx from "clsx";
 
@@ -18,7 +18,7 @@ export const MobileMenu: FC<Props> = ({ routes, selectedPage }) => {
       {/* Mobile Menu Button */}
       <button
         onClick={() => setIsOpen(true)}
-        className="sticky left-4 top-4 z-40 rounded-lg bg-gray-900 p-2 text-white hover:bg-gray-800 md:hidden"
+        className="z-40 m-4 w-fit rounded-lg bg-black p-2 text-white hover:bg-gray-800 md:hidden"
       >
         <Menu size={24} />
       </button>

@@ -2,7 +2,7 @@ import { lazy, Suspense } from "react";
 import { Home, LoaderCircle, Package, Settings } from "lucide-react";
 import { Link, useLocation } from "react-router-dom";
 import clsx from "clsx";
-import { SidebarRoute } from "./layout.types";
+import { SidebarRoute } from "./layout.type";
 
 const MobileMenu = lazy(() =>
   import("./MobileMenu").then((module) => ({ default: module.MobileMenu }))
@@ -20,7 +20,7 @@ export const Sidebar = () => {
   return (
     <>
       {/* Desktop Sidebar */}
-      <div className="fixed left-0 top-0 hidden h-screen w-64 bg-gray-900 p-4 text-white md:block">
+      <div className="sticky start-0 top-0 hidden min-h-screen w-64 bg-black p-4 text-white md:block">
         <div className="mb-8 text-xl font-bold">Refund Dashboard</div>
         <nav className="space-y-4">
           {routes.map(({ href, label, icon: Icon, disabled }) => (
@@ -45,7 +45,7 @@ export const Sidebar = () => {
       {/* Mobile Menu Button */}
       <Suspense
         fallback={
-          <div className="sticky left-4 top-4 z-40 w-fit rounded-lg bg-gray-900 p-2 text-white hover:bg-gray-800 md:hidden">
+          <div className="sticky left-4 top-4 z-40 w-fit rounded-lg bg-black p-2 text-white hover:bg-black/70 md:hidden">
             <LoaderCircle size={24} className="animate-spin" />
           </div>
         }
