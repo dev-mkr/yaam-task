@@ -104,7 +104,7 @@ export const Table = <T extends Identifiable>({
                   {columns.map((column) => (
                     <td
                       key={column.accessor}
-                      className={clsx("max-w-16 px-6 py-4 text-sm", {
+                      className={clsx("min-w-28 max-w-16 px-6 py-4 text-sm", {
                         "text-right": column.align === "right",
                         "text-left": !column.align || column.align === "left",
                         "text-center": column.align === "center",
