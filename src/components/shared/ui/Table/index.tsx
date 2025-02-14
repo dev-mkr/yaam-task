@@ -91,7 +91,6 @@ export const Table = <T extends Identifiable>({
                   </div>
                 </th>
               ))}
-              {actions && <th className="px-6 py-3 text-right">Actions</th>}
             </tr>
           </thead>
 
