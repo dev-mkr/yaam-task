@@ -39,7 +39,7 @@ export const DropdownMenu: FC<Props> = ({
               <button
                 onClick={() => onSelect(id)}
                 className={
-                  "flex w-full items-center justify-between gap-x-3.5 rounded-lg px-3 py-2 text-sm text-gray-800 hover:bg-gray-100 focus:bg-gray-100 focus:outline-none disabled:bg-gray-100"
+                  "flex w-full items-center justify-between gap-x-3.5 rounded-lg px-3 py-2 text-sm text-gray-800 hover:bg-gray-100 focus:outline-none disabled:bg-gray-100 disabled:opacity-50 data-[focus]:bg-gray-100"
                 }
                 disabled={selectedId === id}
               >
