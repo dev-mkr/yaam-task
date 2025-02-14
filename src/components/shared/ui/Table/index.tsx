@@ -57,16 +57,6 @@ export const Table = <T extends Identifiable>({
                 <th
                   key={column.accessor}
                   data-testid={`header-${column.accessor}`}
-                  className={clsx(
-                    "px-6 py-3 text-xs font-medium uppercase tracking-wider text-gray-500",
-                    {
-                      "text-right": column.align === "right",
-                      "text-left": !column.align || column.align === "left",
-                      "text-center": column.align === "center",
-                      "cursor-pointer hover:bg-gray-50": column.sortable,
-                      [column.className || ""]: column.className,
-                    }
-                  )}
                   onClick={() =>
                     column.sortable &&
                     onSortChange(
@@ -77,8 +67,20 @@ export const Table = <T extends Identifiable>({
                     )
                   }
                 >
-                  <div className="flex items-center gap-2">
-                    {column.header}
+                  <div
+                    className={clsx(
+                      "flex gap-2 px-6 py-3 text-xs font-medium uppercase tracking-wider text-gray-500",
+                      {
+                        "justify-end": column.align === "right",
+                        "justify-start":
+                          !column.align || column.align === "left",
+                        "justify-center": column.align === "center",
+                        "cursor-pointer hover:bg-gray-50": column.sortable,
+                        [column.className || ""]: column.className,
+                      }
+                    )}
+                  >
+                    <span>{column.header}</span>
                     {column.sortable && sortBy === column.accessor && (
                       <span data-testid="sort-indicator">
                         {sortDirection === SortDirection.ASC ? (
