@@ -16,6 +16,7 @@ import { TableSkeletonLoading } from "@/components/shared/ui/Table/components/Ta
 import { RefundOrdersActions } from "./components/RefundOrdersActions";
 
 export const RefundOrders = () => {
+  // could be extracted to it's own hook but for the simplicity we leave it as is
   const [searchParams, setSearchParams] = useSearchParams();
 
   const page = Number(searchParams.get("_page")) || 1;
@@ -73,9 +74,8 @@ export const RefundOrders = () => {
       </main>
     );
 
-  if (isError)
-    // handle any error as needed
-    return <GlobalError error="Something went wrong" />;
+  // handle any error as needed
+  if (isError) return <GlobalError error="Something went wrong" />;
 
   return (
     <main className="flex w-full flex-col items-center px-4 md:m-6 md:my-20">
