@@ -1,843 +1,844 @@
 {
   "refund_orders": [
-  {
-    "id": "1",
-    "reason": "Out of stock",
-    "store_name": "Tech Hub",
-    "store_logo": "https://robohash.org/eaquevelenim.png?size=150x150&set=set1",
-    "store_url": "https://store1.com",
-    "amount": 50.0,
-    "active": true,
-    "decision": "accept",
-    "items": [
-      {
-        "name": "Item 1",
-        "id": "item_1_1",
-        "price": 20.0,
-        "quantity": 2
-      },
-      {
-        "name": "Item 2",
-        "id": "item_1_2",
-        "price": 35.75,
-        "quantity": 4
-      }
-    ]
-  },
-  {
-    "id": "2",
-    "reason": "Customer canceled",
-    "store_name": "Gadget World",
-    "store_logo": "https://robohash.org/molestiaslaudantiumcorrupti.png?size=150x150&set=set1",
-    "store_url": "https://store2.com",
-    "amount": 60.5,
-    "active": false,
-    "decision": "escalate",
-    "items": [
-      {
-        "name": "Item 1",
-        "id": "item_2_1",
-        "price": 20.0,
-        "quantity": 2
-      },
-      {
-        "name": "Item 2",
-        "id": "item_2_2",
-        "price": 35.75,
-        "quantity": 4
-      }
-    ]
-  },
-  {
-    "id": "3",
-    "reason": "Payment failure",
-    "store_name": "Fashion Zone",
-    "store_logo": "https://robohash.org/iureaperiamamet.png?size=150x150&set=set1",
-    "store_url": "https://store3.com",
-    "amount": 71.0,
-    "active": true,
-    "decision": null,
-    "items": [
-      {
-        "name": "Item 1",
-        "id": "item_3_1",
-        "price": 20.0,
-        "quantity": 2
-      },
-      {
-        "name": "Item 2",
-        "id": "item_3_2",
-        "price": 35.75,
-        "quantity": 4
-      }
-    ]
-  },
-  {
-    "id": "4",
-    "reason": "Delayed shipping",
-    "store_name": "Home Essentials",
-    "store_logo": "https://robohash.org/involuptatibusaut.png?size=150x150&set=set1",
-    "store_url": "https://store4.com",
-    "amount": 81.5,
-    "active": false,
-    "decision": null,
-    "items": [
-      {
-        "name": "Item 1",
-        "id": "item_4_1",
-        "price": 20.0,
-        "quantity": 2
-      },
-      {
-        "name": "Item 2",
-        "id": "item_4_2",
-        "price": 35.75,
-        "quantity": 4
-      }
-    ]
-  },
-  {
-    "id": "5",
-    "reason": "Product defect",
-    "store_name": "ElectroMart",
-    "store_logo": "https://robohash.org/delenitiautincidunt.png?size=150x150&set=set1",
-    "store_url": "https://store5.com",
-    "amount": 92.0,
-    "active": true,
-    "decision": "escalate",
-    "items": [
-      {
-        "name": "Item 1",
-        "id": "item_5_1",
-        "price": 20.0,
-        "quantity": 2
-      },
-      {
-        "name": "Item 2",
-        "id": "item_5_2",
-        "price": 35.75,
-        "quantity": 4
-      }
-    ]
-  },
-  {
-    "id": "6",
-    "reason": "Out of stock",
-    "store_name": "Tech Hub",
-    "store_logo": "https://robohash.org/enimquamdolores.png?size=150x150&set=set1",
-    "store_url": "https://store6.com",
-    "amount": 102.5,
-    "active": false,
-    "decision": "reject",
-    "items": [
-      {
-        "name": "Item 1",
-        "id": "item_6_1",
-        "price": 20.0,
-        "quantity": 2
-      },
-      {
-        "name": "Item 2",
-        "id": "item_6_2",
-        "price": 35.75,
-        "quantity": 4
-      }
-    ]
-  },
-  {
-    "id": "7",
-    "reason": "Customer canceled",
-    "store_name": "Gadget World",
-    "store_logo": "https://robohash.org/rerumadolores.png?size=150x150&set=set1",
-    "store_url": "https://store7.com",
-    "amount": 113.0,
-    "active": true,
-    "decision": "accept",
-    "items": [
-      {
-        "name": "Item 1",
-        "id": "item_7_1",
-        "price": 20.0,
-        "quantity": 2
-      },
-      {
-        "name": "Item 2",
-        "id": "item_7_2",
-        "price": 35.75,
-        "quantity": 4
-      }
-    ]
-  },
-  {
-    "id": "8",
-    "reason": "Payment failure",
-    "store_name": "Fashion Zone",
-    "store_logo": "https://robohash.org/commodiinquo.png?size=150x150&set=set1",
-    "store_url": "https://store8.com",
-    "amount": 123.5,
-    "active": false,
-    "decision": "escalate",
-    "items": [
-      {
-        "name": "Item 1",
-        "id": "item_8_1",
-        "price": 20.0,
-        "quantity": 2
-      },
-      {
-        "name": "Item 2",
-        "id": "item_8_2",
-        "price": 35.75,
-        "quantity": 4
-      }
-    ]
-  },
-  {
-    "id": "9",
-    "reason": "Delayed shipping",
-    "store_name": "Home Essentials",
-    "store_logo": "https://robohash.org/inetqui.png?size=150x150&set=set1",
-    "store_url": "https://store9.com",
-    "amount": 134.0,
-    "active": true,
-    "decision": "reject",
-    "items": [
-      {
-        "name": "Item 1",
-        "id": "item_9_1",
-        "price": 20.0,
-        "quantity": 2
-      },
-      {
-        "name": "Item 2",
-        "id": "item_9_2",
-        "price": 35.75,
-        "quantity": 4
-      }
-    ]
-  },
-  {
-    "id": "10",
-    "reason": "Product defect",
-    "store_name": "ElectroMart",
-    "store_logo": "https://robohash.org/quidelectusofficiis.png?size=150x150&set=set1",
-    "store_url": "https://store10.com",
-    "amount": 144.5,
-    "active": false,
-    "decision": "accept",
-    "items": [
-      {
-        "name": "Item 1",
-        "id": "item_10_1",
-        "price": 20.0,
-        "quantity": 2
-      },
-      {
-        "name": "Item 2",
-        "id": "item_10_2",
-        "price": 35.75,
-        "quantity": 4
-      }
-    ]
-  },
-  {
-    "id": "11",
-    "reason": "Out of stock",
-    "store_name": "Tech Hub",
-    "store_logo": "https://robohash.org/essecorporistemporibus.png?size=150x150&set=set1",
-    "store_url": "https://store11.com",
-    "amount": 155.0,
-    "active": true,
-    "decision": "escalate",
-    "items": [
-      {
-        "name": "Item 1",
-        "id": "item_11_1",
-        "price": 20.0,
-        "quantity": 2
-      },
-      {
-        "name": "Item 2",
-        "id": "item_11_2",
-        "price": 35.75,
-        "quantity": 4
-      }
-    ]
-  },
-  {
-    "id": "12",
-    "reason": "Customer canceled",
-    "store_name": "Gadget World",
-    "store_logo": "https://robohash.org/nesciuntconsequaturquisquam.png?size=150x150&set=set1",
-    "store_url": "https://store12.com",
-    "amount": 165.5,
-    "active": false,
-    "decision": "reject",
-    "items": [
-      {
-        "name": "Item 1",
-        "id": "item_12_1",
-        "price": 20.0,
-        "quantity": 2
-      },
-      {
-        "name": "Item 2",
-        "id": "item_12_2",
-        "price": 35.75,
-        "quantity": 4
-      }
-    ]
-  },
-  {
-    "id": "13",
-    "reason": "Payment failure",
-    "store_name": "Fashion Zone",
-    "store_logo": "https://robohash.org/beataeearuma.png?size=150x150&set=set1",
-    "store_url": "https://store13.com",
-    "amount": 176.0,
-    "active": true,
-    "decision": "accept",
-    "items": [
-      {
-        "name": "Item 1",
-        "id": "item_13_1",
-        "price": 20.0,
-        "quantity": 2
-      },
-      {
-        "name": "Item 2",
-        "id": "item_13_2",
-        "price": 35.75,
-        "quantity": 4
-      }
-    ]
-  },
-  {
-    "id": "14",
-    "reason": "Delayed shipping",
-    "store_name": "Home Essentials",
-    "store_logo": "https://robohash.org/itaqueautemculpa.png?size=150x150&set=set1",
-    "store_url": "https://store14.com",
-    "amount": 186.5,
-    "active": false,
-    "decision": "escalate",
-    "items": [
-      {
-        "name": "Item 1",
-        "id": "item_14_1",
-        "price": 20.0,
-        "quantity": 2
-      },
-      {
-        "name": "Item 2",
-        "id": "item_14_2",
-        "price": 35.75,
-        "quantity": 4
-      }
-    ]
-  },
-  {
-    "id": "15",
-    "reason": "Product defect",
-    "store_name": "ElectroMart",
-    "store_logo": "https://robohash.org/velautad.png?size=150x150&set=set1",
-    "store_url": "https://store15.com",
-    "amount": 197.0,
-    "active": true,
-    "decision": "reject",
-    "items": [
-      {
-        "name": "Item 1",
-        "id": "item_15_1",
-        "price": 20.0,
-        "quantity": 2
-      },
-      {
-        "name": "Item 2",
-        "id": "item_15_2",
-        "price": 35.75,
-        "quantity": 4
-      }
-    ]
-  },
-  {
-    "id": "16",
-    "reason": "Out of stock",
-    "store_name": "Tech Hub",
-    "store_logo": "https://robohash.org/repellatomnisnon.png?size=150x150&set=set1",
-    "store_url": "https://store16.com",
-    "amount": 207.5,
-    "active": false,
-    "decision": "accept",
-    "items": [
-      {
-        "name": "Item 1",
-        "id": "item_16_1",
-        "price": 20.0,
-        "quantity": 2
-      },
-      {
-        "name": "Item 2",
-        "id": "item_16_2",
-        "price": 35.75,
-        "quantity": 4
-      }
-    ]
-  },
-  {
-    "id": "17",
-    "reason": "Customer canceled",
-    "store_name": "Gadget World",
-    "store_logo": "https://robohash.org/providentmolestiasearum.png?size=150x150&set=set1",
-    "store_url": "https://store17.com",
-    "amount": 218.0,
-    "active": true,
-    "decision": "escalate",
-    "items": [
-      {
-        "name": "Item 1",
-        "id": "item_17_1",
-        "price": 20.0,
-        "quantity": 2
-      },
-      {
-        "name": "Item 2",
-        "id": "item_17_2",
-        "price": 35.75,
-        "quantity": 4
-      }
-    ]
-  },
-  {
-    "id": "18",
-    "reason": "Payment failure",
-    "store_name": "Fashion Zone",
-    "store_logo": "https://robohash.org/autaniminam.png?size=150x150&set=set1",
-    "store_url": "https://store18.com",
-    "amount": 228.5,
-    "active": false,
-    "decision": "reject",
-    "items": [
-      {
-        "name": "Item 1",
-        "id": "item_18_1",
-        "price": 20.0,
-        "quantity": 2
-      },
-      {
-        "name": "Item 2",
-        "id": "item_18_2",
-        "price": 35.75,
-        "quantity": 4
-      }
-    ]
-  },
-  {
-    "id": "19",
-    "reason": "Delayed shipping",
-    "store_name": "Home Essentials",
-    "store_logo": "https://robohash.org/quiconsequaturqui.png?size=150x150&set=set1",
-    "store_url": "https://store19.com",
-    "amount": 239.0,
-    "active": true,
-    "decision": "accept",
-    "items": [
-      {
-        "name": "Item 1",
-        "id": "item_19_1",
-        "price": 20.0,
-        "quantity": 2
-      },
-      {
-        "name": "Item 2",
-        "id": "item_19_2",
-        "price": 35.75,
-        "quantity": 4
-      }
-    ]
-  },
-  {
-    "id": "20",
-    "reason": "Product defect",
-    "store_name": "ElectroMart",
-    "store_logo": "https://robohash.org/utquiet.png?size=150x150&set=set1",
-    "store_url": "https://store20.com",
-    "amount": 249.5,
-    "active": false,
-    "decision": "escalate",
-    "items": [
-      {
-        "name": "Item 1",
-        "id": "item_20_1",
-        "price": 20.0,
-        "quantity": 2
-      },
-      {
-        "name": "Item 2",
-        "id": "item_20_2",
-        "price": 35.75,
-        "quantity": 4
-      }
-    ]
-  },
-  {
-    "id": "21",
-    "reason": "Out of stock",
-    "store_name": "Tech Hub",
-    "store_logo": "https://robohash.org/saepeoditrepudiandae.png?size=150x150&set=set1",
-    "store_url": "https://store21.com",
-    "amount": 260.0,
-    "active": true,
-    "decision": "reject",
-    "items": [
-      {
-        "name": "Item 1",
-        "id": "item_21_1",
-        "price": 20.0,
-        "quantity": 2
-      },
-      {
-        "name": "Item 2",
-        "id": "item_21_2",
-        "price": 35.75,
-        "quantity": 4
-      }
-    ]
-  },
-  {
-    "id": "22",
-    "reason": "Customer canceled",
-    "store_name": "Gadget World",
-    "store_logo": "https://robohash.org/suntquivoluptatibus.png?size=150x150&set=set1",
-    "store_url": "https://store22.com",
-    "amount": 270.5,
-    "active": false,
-    "decision": "accept",
-    "items": [
-      {
-        "name": "Item 1",
-        "id": "item_22_1",
-        "price": 20.0,
-        "quantity": 2
-      },
-      {
-        "name": "Item 2",
-        "id": "item_22_2",
-        "price": 35.75,
-        "quantity": 4
-      }
-    ]
-  },
-  {
-    "id": "23",
-    "reason": "Payment failure",
-    "store_name": "Fashion Zone",
-    "store_logo": "https://loremflickr.com/200/200?random=1",
-    "store_url": "https://store23.com",
-    "amount": 281.0,
-    "active": true,
-    "decision": "escalate",
-    "items": [
-      {
-        "name": "Item 1",
-        "id": "item_23_1",
-        "price": 20.0,
-        "quantity": 2
-      },
-      {
-        "name": "Item 2",
-        "id": "item_23_2",
-        "price": 35.75,
-        "quantity": 4
-      }
-    ]
-  },
-  {
-    "id": "24",
-    "reason": "Delayed shipping",
-    "store_name": "Home Essentials",
-    "store_logo": "https://robohash.org/teneturdeseruntminus.png?size=150x150&set=set1",
-    "store_url": "https://store24.com",
-    "amount": 291.5,
-    "active": false,
-    "decision": "reject",
-    "items": [
-      {
-        "name": "Item 1",
-        "id": "item_24_1",
-        "price": 20.0,
-        "quantity": 2
-      },
-      {
-        "name": "Item 2",
-        "id": "item_24_2",
-        "price": 35.75,
-        "quantity": 4
-      }
-    ]
-  },
-  {
-    "id": "25",
-    "reason": "Product defect",
-    "store_name": "ElectroMart",
-    "store_logo": "https://robohash.org/ullammolestiasvelit.png?size=150x150&set=set1",
-    "store_url": "https://store25.com",
-    "amount": 302.0,
-    "active": true,
-    "decision": "accept",
-    "items": [
-      {
-        "name": "Item 1",
-        "id": "item_25_1",
-        "price": 20.0,
-        "quantity": 2
-      },
-      {
-        "name": "Item 2",
-        "id": "item_25_2",
-        "price": 35.75,
-        "quantity": 4
-      }
-    ]
-  },
-  {
-    "id": "26",
-    "reason": "Out of stock",
-    "store_name": "Tech Hub",
-    "store_logo": "https://robohash.org/utoptioincidunt.png?size=150x150&set=set1",
-    "store_url": "https://store26.com",
-    "amount": 312.5,
-    "active": false,
-    "decision": "escalate",
-    "items": [
-      {
-        "name": "Item 1",
-        "id": "item_26_1",
-        "price": 20.0,
-        "quantity": 2
-      },
-      {
-        "name": "Item 2",
-        "id": "item_26_2",
-        "price": 35.75,
-        "quantity": 4
-      }
-    ]
-  },
-  {
-    "id": "27",
-    "reason": "Customer canceled",
-    "store_name": "Gadget World",
-    "store_logo": "https://robohash.org/repellatexcepturioccaecati.png?size=150x150&set=set1",
-    "store_url": "https://store27.com",
-    "amount": 323.0,
-    "active": true,
-    "decision": "reject",
-    "items": [
-      {
-        "name": "Item 1",
-        "id": "item_27_1",
-        "price": 20.0,
-        "quantity": 2
-      },
-      {
-        "name": "Item 2",
-        "id": "item_27_2",
-        "price": 35.75,
-        "quantity": 4
-      }
-    ]
-  },
-  {
-    "id": "28",
-    "reason": "Payment failure",
-    "store_name": "Fashion Zone",
-    "store_logo": "https://robohash.org/repellatexcepturioccaecati.png?size=150x150&set=set1",
-    "store_url": "https://store28.com",
-    "amount": 333.5,
-    "active": false,
-    "decision": "accept",
-    "items": [
-      {
-        "name": "Item 1",
-        "id": "item_28_1",
-        "price": 20.0,
-        "quantity": 2
-      },
-      {
-        "name": "Item 2",
-        "id": "item_28_2",
-        "price": 35.75,
-        "quantity": 4
-      }
-    ]
-  },
-  {
-    "id": "29",
-    "reason": "Delayed shipping",
-    "store_name": "Home Essentials",
-    "store_logo": "https://robohash.org/natusrepellendusducimus.png?size=150x150&set=set1",
-    "store_url": "https://store29.com",
-    "amount": 344.0,
-    "active": true,
-    "decision": "escalate",
-    "items": [
-      {
-        "name": "Item 1",
-        "id": "item_29_1",
-        "price": 20.0,
-        "quantity": 2
-      },
-      {
-        "name": "Item 2",
-        "id": "item_29_2",
-        "price": 35.75,
-        "quantity": 4
-      }
-    ]
-  },
-  {
-    "id": "30",
-    "reason": "Product defect",
-    "store_name": "ElectroMart",
-    "store_logo": "https://robohash.org/nisiitaqueaperiam.png?size=150x150&set=set1",
-    "store_url": "https://store30.com",
-    "amount": 354.5,
-    "active": false,
-    "decision": "reject",
-    "items": [
-      {
-        "name": "Item 1",
-        "id": "item_30_1",
-        "price": 20.0,
-        "quantity": 2
-      },
-      {
-        "name": "Item 2",
-        "id": "item_30_2",
-        "price": 35.75,
-        "quantity": 4
-      }
-    ]
-  },
-  {
-    "id": "31",
-    "reason": "Out of stock",
-    "store_name": "Tech Hub",
-    "store_logo": "https://robohash.org/autprovidentnesciunt.png?size=150x150&set=set1",
-    "store_url": "https://store31.com",
-    "amount": 365.0,
-    "active": true,
-    "decision": "accept",
-    "items": [
-      {
-        "name": "Item 1",
-        "id": "item_31_1",
-        "price": 20.0,
-        "quantity": 2
-      },
-      {
-        "name": "Item 2",
-        "id": "item_31_2",
-        "price": 35.75,
-        "quantity": 4
-      }
-    ]
-  },
-  {
-    "id": "32",
-    "reason": "Customer canceled",
-    "store_name": "Gadget World",
-    "store_logo": "https://loremflickr.com/200/200?random=1",
-    "store_url": "https://store32.com",
-    "amount": 375.5,
-    "active": false,
-    "decision": "escalate",
-    "items": [
-      {
-        "name": "Item 1",
-        "id": "item_32_1",
-        "price": 20.0,
-        "quantity": 2
-      },
-      {
-        "name": "Item 2",
-        "id": "item_32_2",
-        "price": 35.75,
-        "quantity": 4
-      }
-    ]
-  },
-  {
-    "id": "33",
-    "reason": "Payment failure",
-    "store_name": "Fashion Zone",
-    "store_logo": "https://loremflickr.com/200/200?random=1",
-    "store_url": "https://store33.com",
-    "amount": 386.0,
-    "active": true,
-    "decision": "reject",
-    "items": [
-      {
-        "name": "Item 1",
-        "id": "item_33_1",
-        "price": 20.0,
-        "quantity": 2
-      },
-      {
-        "name": "Item 2",
-        "id": "item_33_2",
-        "price": 35.75,
-        "quantity": 4
-      }
-    ]
-  },
-  {
-    "id": "34",
-    "reason": "Delayed shipping",
-    "store_name": "Home Essentials",
-    "store_logo": "https://loremflickr.com/200/200?random=1",
-    "store_url": "https://store34.com",
-    "amount": 396.5,
-    "active": false,
-    "decision": "accept",
-    "items": [
-      {
-        "name": "Item 1",
-        "id": "item_34_1",
-        "price": 20.0,
-        "quantity": 2
-      },
-      {
-        "name": "Item 2",
-        "id": "item_34_2",
-        "price": 35.75,
-        "quantity": 4
-      }
-    ]
-  },
-  {
-    "id": "35",
-    "reason": "Product defect",
-    "store_name": "ElectroMart",
-    "store_logo": "https://loremflickr.com/200/200?random=1",
-    "store_url": "https://store35.com",
-    "amount": 407.0,
-    "active": true,
-    "decision": "escalate",
-    "items": [
-      {
-        "name": "Item 1",
-        "id": "item_35_1",
-        "price": 20.0,
-        "quantity": 2
-      },
-      {
-        "name": "Item 2",
-        "id": "item_35_2",
-        "price": 35.75,
-        "quantity": 4
-      }
-    ]
-  }
-]}
+    {
+      "id": "1",
+      "reason": "Out of stock",
+      "store_name": "Tech Hub",
+      "store_logo": "https://robohash.org/eaquevelenim.png?size=150x150&set=set1",
+      "store_url": "https://store1.com",
+      "amount": 50,
+      "active": false,
+      "decision": "accept",
+      "items": [
+        {
+          "name": "Item 1",
+          "id": "item_1_1",
+          "price": 20,
+          "quantity": 2
+        },
+        {
+          "name": "Item 2",
+          "id": "item_1_2",
+          "price": 35.75,
+          "quantity": 4
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "reason": "Customer canceled",
+      "store_name": "Gadget World",
+      "store_logo": "https://robohash.org/molestiaslaudantiumcorrupti.png?size=150x150&set=set1",
+      "store_url": "https://store2.com",
+      "amount": 60.5,
+      "active": true,
+      "decision": "escalate",
+      "items": [
+        {
+          "name": "Item 1",
+          "id": "item_2_1",
+          "price": 20,
+          "quantity": 2
+        },
+        {
+          "name": "Item 2",
+          "id": "item_2_2",
+          "price": 35.75,
+          "quantity": 4
+        }
+      ]
+    },
+    {
+      "id": "3",
+      "reason": "Payment failure",
+      "store_name": "Fashion Zone",
+      "store_logo": "https://robohash.org/iureaperiamamet.png?size=150x150&set=set1",
+      "store_url": "https://store3.com",
+      "amount": 71,
+      "active": true,
+      "decision": "reject",
+      "items": [
+        {
+          "name": "Item 1",
+          "id": "item_3_1",
+          "price": 20,
+          "quantity": 2
+        },
+        {
+          "name": "Item 2",
+          "id": "item_3_2",
+          "price": 35.75,
+          "quantity": 4
+        }
+      ]
+    },
+    {
+      "id": "4",
+      "reason": "Delayed shipping",
+      "store_name": "Home Essentials",
+      "store_logo": "https://robohash.org/involuptatibusaut.png?size=150x150&set=set1",
+      "store_url": "https://store4.com",
+      "amount": 81.5,
+      "active": true,
+      "decision": null,
+      "items": [
+        {
+          "name": "Item 1",
+          "id": "item_4_1",
+          "price": 20,
+          "quantity": 2
+        },
+        {
+          "name": "Item 2",
+          "id": "item_4_2",
+          "price": 35.75,
+          "quantity": 4
+        }
+      ]
+    },
+    {
+      "id": "5",
+      "reason": "Product defect",
+      "store_name": "ElectroMart",
+      "store_logo": "https://robohash.org/delenitiautincidunt.png?size=150x150&set=set1",
+      "store_url": "https://store5.com",
+      "amount": 92,
+      "active": false,
+      "decision": "accept",
+      "items": [
+        {
+          "name": "Item 1",
+          "id": "item_5_1",
+          "price": 20,
+          "quantity": 2
+        },
+        {
+          "name": "Item 2",
+          "id": "item_5_2",
+          "price": 35.75,
+          "quantity": 4
+        }
+      ]
+    },
+    {
+      "id": "6",
+      "reason": "Out of stock",
+      "store_name": "Tech Hub",
+      "store_logo": "https://robohash.org/enimquamdolores.png?size=150x150&set=set1",
+      "store_url": "https://store6.com",
+      "amount": 102.5,
+      "active": false,
+      "decision": "accept",
+      "items": [
+        {
+          "name": "Item 1",
+          "id": "item_6_1",
+          "price": 20,
+          "quantity": 2
+        },
+        {
+          "name": "Item 2",
+          "id": "item_6_2",
+          "price": 35.75,
+          "quantity": 4
+        }
+      ]
+    },
+    {
+      "id": "7",
+      "reason": "Customer canceled",
+      "store_name": "Gadget World",
+      "store_logo": "https://robohash.org/rerumadolores.png?size=150x150&set=set1",
+      "store_url": "https://store7.com",
+      "amount": 113,
+      "active": true,
+      "decision": "accept",
+      "items": [
+        {
+          "name": "Item 1",
+          "id": "item_7_1",
+          "price": 20,
+          "quantity": 2
+        },
+        {
+          "name": "Item 2",
+          "id": "item_7_2",
+          "price": 35.75,
+          "quantity": 4
+        }
+      ]
+    },
+    {
+      "id": "8",
+      "reason": "Payment failure",
+      "store_name": "Fashion Zone",
+      "store_logo": "https://robohash.org/commodiinquo.png?size=150x150&set=set1",
+      "store_url": "https://store8.com",
+      "amount": 123.5,
+      "active": false,
+      "decision": "escalate",
+      "items": [
+        {
+          "name": "Item 1",
+          "id": "item_8_1",
+          "price": 20,
+          "quantity": 2
+        },
+        {
+          "name": "Item 2",
+          "id": "item_8_2",
+          "price": 35.75,
+          "quantity": 4
+        }
+      ]
+    },
+    {
+      "id": "9",
+      "reason": "Delayed shipping",
+      "store_name": "Home Essentials",
+      "store_logo": "https://robohash.org/inetqui.png?size=150x150&set=set1",
+      "store_url": "https://store9.com",
+      "amount": 134,
+      "active": true,
+      "decision": "reject",
+      "items": [
+        {
+          "name": "Item 1",
+          "id": "item_9_1",
+          "price": 20,
+          "quantity": 2
+        },
+        {
+          "name": "Item 2",
+          "id": "item_9_2",
+          "price": 35.75,
+          "quantity": 4
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "reason": "Product defect",
+      "store_name": "ElectroMart",
+      "store_logo": "https://robohash.org/quidelectusofficiis.png?size=150x150&set=set1",
+      "store_url": "https://store10.com",
+      "amount": 144.5,
+      "active": false,
+      "decision": "accept",
+      "items": [
+        {
+          "name": "Item 1",
+          "id": "item_10_1",
+          "price": 20,
+          "quantity": 2
+        },
+        {
+          "name": "Item 2",
+          "id": "item_10_2",
+          "price": 35.75,
+          "quantity": 4
+        }
+      ]
+    },
+    {
+      "id": "11",
+      "reason": "Out of stock",
+      "store_name": "Tech Hub",
+      "store_logo": "https://robohash.org/essecorporistemporibus.png?size=150x150&set=set1",
+      "store_url": "https://store11.com",
+      "amount": 155,
+      "active": true,
+      "decision": "escalate",
+      "items": [
+        {
+          "name": "Item 1",
+          "id": "item_11_1",
+          "price": 20,
+          "quantity": 2
+        },
+        {
+          "name": "Item 2",
+          "id": "item_11_2",
+          "price": 35.75,
+          "quantity": 4
+        }
+      ]
+    },
+    {
+      "id": "12",
+      "reason": "Customer canceled",
+      "store_name": "Gadget World",
+      "store_logo": "https://robohash.org/nesciuntconsequaturquisquam.png?size=150x150&set=set1",
+      "store_url": "https://store12.com",
+      "amount": 165.5,
+      "active": false,
+      "decision": "reject",
+      "items": [
+        {
+          "name": "Item 1",
+          "id": "item_12_1",
+          "price": 20,
+          "quantity": 2
+        },
+        {
+          "name": "Item 2",
+          "id": "item_12_2",
+          "price": 35.75,
+          "quantity": 4
+        }
+      ]
+    },
+    {
+      "id": "13",
+      "reason": "Payment failure",
+      "store_name": "Fashion Zone",
+      "store_logo": "https://robohash.org/beataeearuma.png?size=150x150&set=set1",
+      "store_url": "https://store13.com",
+      "amount": 176,
+      "active": true,
+      "decision": "accept",
+      "items": [
+        {
+          "name": "Item 1",
+          "id": "item_13_1",
+          "price": 20,
+          "quantity": 2
+        },
+        {
+          "name": "Item 2",
+          "id": "item_13_2",
+          "price": 35.75,
+          "quantity": 4
+        }
+      ]
+    },
+    {
+      "id": "14",
+      "reason": "Delayed shipping",
+      "store_name": "Home Essentials",
+      "store_logo": "https://robohash.org/itaqueautemculpa.png?size=150x150&set=set1",
+      "store_url": "https://store14.com",
+      "amount": 186.5,
+      "active": false,
+      "decision": "escalate",
+      "items": [
+        {
+          "name": "Item 1",
+          "id": "item_14_1",
+          "price": 20,
+          "quantity": 2
+        },
+        {
+          "name": "Item 2",
+          "id": "item_14_2",
+          "price": 35.75,
+          "quantity": 4
+        }
+      ]
+    },
+    {
+      "id": "15",
+      "reason": "Product defect",
+      "store_name": "ElectroMart",
+      "store_logo": "https://robohash.org/velautad.png?size=150x150&set=set1",
+      "store_url": "https://store15.com",
+      "amount": 197,
+      "active": true,
+      "decision": "reject",
+      "items": [
+        {
+          "name": "Item 1",
+          "id": "item_15_1",
+          "price": 20,
+          "quantity": 2
+        },
+        {
+          "name": "Item 2",
+          "id": "item_15_2",
+          "price": 35.75,
+          "quantity": 4
+        }
+      ]
+    },
+    {
+      "id": "16",
+      "reason": "Out of stock",
+      "store_name": "Tech Hub",
+      "store_logo": "https://robohash.org/repellatomnisnon.png?size=150x150&set=set1",
+      "store_url": "https://store16.com",
+      "amount": 207.5,
+      "active": false,
+      "decision": "accept",
+      "items": [
+        {
+          "name": "Item 1",
+          "id": "item_16_1",
+          "price": 20,
+          "quantity": 2
+        },
+        {
+          "name": "Item 2",
+          "id": "item_16_2",
+          "price": 35.75,
+          "quantity": 4
+        }
+      ]
+    },
+    {
+      "id": "17",
+      "reason": "Customer canceled",
+      "store_name": "Gadget World",
+      "store_logo": "https://robohash.org/providentmolestiasearum.png?size=150x150&set=set1",
+      "store_url": "https://store17.com",
+      "amount": 218,
+      "active": true,
+      "decision": "escalate",
+      "items": [
+        {
+          "name": "Item 1",
+          "id": "item_17_1",
+          "price": 20,
+          "quantity": 2
+        },
+        {
+          "name": "Item 2",
+          "id": "item_17_2",
+          "price": 35.75,
+          "quantity": 4
+        }
+      ]
+    },
+    {
+      "id": "18",
+      "reason": "Payment failure",
+      "store_name": "Fashion Zone",
+      "store_logo": "https://robohash.org/autaniminam.png?size=150x150&set=set1",
+      "store_url": "https://store18.com",
+      "amount": 228.5,
+      "active": false,
+      "decision": "reject",
+      "items": [
+        {
+          "name": "Item 1",
+          "id": "item_18_1",
+          "price": 20,
+          "quantity": 2
+        },
+        {
+          "name": "Item 2",
+          "id": "item_18_2",
+          "price": 35.75,
+          "quantity": 4
+        }
+      ]
+    },
+    {
+      "id": "19",
+      "reason": "Delayed shipping",
+      "store_name": "Home Essentials",
+      "store_logo": "https://robohash.org/quiconsequaturqui.png?size=150x150&set=set1",
+      "store_url": "https://store19.com",
+      "amount": 239,
+      "active": true,
+      "decision": "accept",
+      "items": [
+        {
+          "name": "Item 1",
+          "id": "item_19_1",
+          "price": 20,
+          "quantity": 2
+        },
+        {
+          "name": "Item 2",
+          "id": "item_19_2",
+          "price": 35.75,
+          "quantity": 4
+        }
+      ]
+    },
+    {
+      "id": "20",
+      "reason": "Product defect",
+      "store_name": "ElectroMart",
+      "store_logo": "https://robohash.org/utquiet.png?size=150x150&set=set1",
+      "store_url": "https://store20.com",
+      "amount": 249.5,
+      "active": false,
+      "decision": "escalate",
+      "items": [
+        {
+          "name": "Item 1",
+          "id": "item_20_1",
+          "price": 20,
+          "quantity": 2
+        },
+        {
+          "name": "Item 2",
+          "id": "item_20_2",
+          "price": 35.75,
+          "quantity": 4
+        }
+      ]
+    },
+    {
+      "id": "21",
+      "reason": "Out of stock",
+      "store_name": "Tech Hub",
+      "store_logo": "https://robohash.org/saepeoditrepudiandae.png?size=150x150&set=set1",
+      "store_url": "https://store21.com",
+      "amount": 260,
+      "active": true,
+      "decision": "reject",
+      "items": [
+        {
+          "name": "Item 1",
+          "id": "item_21_1",
+          "price": 20,
+          "quantity": 2
+        },
+        {
+          "name": "Item 2",
+          "id": "item_21_2",
+          "price": 35.75,
+          "quantity": 4
+        }
+      ]
+    },
+    {
+      "id": "22",
+      "reason": "Customer canceled",
+      "store_name": "Gadget World",
+      "store_logo": "https://robohash.org/suntquivoluptatibus.png?size=150x150&set=set1",
+      "store_url": "https://store22.com",
+      "amount": 270.5,
+      "active": false,
+      "decision": "accept",
+      "items": [
+        {
+          "name": "Item 1",
+          "id": "item_22_1",
+          "price": 20,
+          "quantity": 2
+        },
+        {
+          "name": "Item 2",
+          "id": "item_22_2",
+          "price": 35.75,
+          "quantity": 4
+        }
+      ]
+    },
+    {
+      "id": "23",
+      "reason": "Payment failure",
+      "store_name": "Fashion Zone",
+      "store_logo": "https://loremflickr.com/200/200?random=1",
+      "store_url": "https://store23.com",
+      "amount": 281,
+      "active": true,
+      "decision": "escalate",
+      "items": [
+        {
+          "name": "Item 1",
+          "id": "item_23_1",
+          "price": 20,
+          "quantity": 2
+        },
+        {
+          "name": "Item 2",
+          "id": "item_23_2",
+          "price": 35.75,
+          "quantity": 4
+        }
+      ]
+    },
+    {
+      "id": "24",
+      "reason": "Delayed shipping",
+      "store_name": "Home Essentials",
+      "store_logo": "https://robohash.org/teneturdeseruntminus.png?size=150x150&set=set1",
+      "store_url": "https://store24.com",
+      "amount": 291.5,
+      "active": false,
+      "decision": "reject",
+      "items": [
+        {
+          "name": "Item 1",
+          "id": "item_24_1",
+          "price": 20,
+          "quantity": 2
+        },
+        {
+          "name": "Item 2",
+          "id": "item_24_2",
+          "price": 35.75,
+          "quantity": 4
+        }
+      ]
+    },
+    {
+      "id": "25",
+      "reason": "Product defect",
+      "store_name": "ElectroMart",
+      "store_logo": "https://robohash.org/ullammolestiasvelit.png?size=150x150&set=set1",
+      "store_url": "https://store25.com",
+      "amount": 302,
+      "active": true,
+      "decision": "accept",
+      "items": [
+        {
+          "name": "Item 1",
+          "id": "item_25_1",
+          "price": 20,
+          "quantity": 2
+        },
+        {
+          "name": "Item 2",
+          "id": "item_25_2",
+          "price": 35.75,
+          "quantity": 4
+        }
+      ]
+    },
+    {
+      "id": "26",
+      "reason": "Out of stock",
+      "store_name": "Tech Hub",
+      "store_logo": "https://robohash.org/utoptioincidunt.png?size=150x150&set=set1",
+      "store_url": "https://store26.com",
+      "amount": 312.5,
+      "active": false,
+      "decision": "escalate",
+      "items": [
+        {
+          "name": "Item 1",
+          "id": "item_26_1",
+          "price": 20,
+          "quantity": 2
+        },
+        {
+          "name": "Item 2",
+          "id": "item_26_2",
+          "price": 35.75,
+          "quantity": 4
+        }
+      ]
+    },
+    {
+      "id": "27",
+      "reason": "Customer canceled",
+      "store_name": "Gadget World",
+      "store_logo": "https://robohash.org/repellatexcepturioccaecati.png?size=150x150&set=set1",
+      "store_url": "https://store27.com",
+      "amount": 323,
+      "active": true,
+      "decision": "reject",
+      "items": [
+        {
+          "name": "Item 1",
+          "id": "item_27_1",
+          "price": 20,
+          "quantity": 2
+        },
+        {
+          "name": "Item 2",
+          "id": "item_27_2",
+          "price": 35.75,
+          "quantity": 4
+        }
+      ]
+    },
+    {
+      "id": "28",
+      "reason": "Payment failure",
+      "store_name": "Fashion Zone",
+      "store_logo": "https://robohash.org/repellatexcepturioccaecati.png?size=150x150&set=set1",
+      "store_url": "https://store28.com",
+      "amount": 333.5,
+      "active": false,
+      "decision": "accept",
+      "items": [
+        {
+          "name": "Item 1",
+          "id": "item_28_1",
+          "price": 20,
+          "quantity": 2
+        },
+        {
+          "name": "Item 2",
+          "id": "item_28_2",
+          "price": 35.75,
+          "quantity": 4
+        }
+      ]
+    },
+    {
+      "id": "29",
+      "reason": "Delayed shipping",
+      "store_name": "Home Essentials",
+      "store_logo": "https://robohash.org/natusrepellendusducimus.png?size=150x150&set=set1",
+      "store_url": "https://store29.com",
+      "amount": 344,
+      "active": true,
+      "decision": "escalate",
+      "items": [
+        {
+          "name": "Item 1",
+          "id": "item_29_1",
+          "price": 20,
+          "quantity": 2
+        },
+        {
+          "name": "Item 2",
+          "id": "item_29_2",
+          "price": 35.75,
+          "quantity": 4
+        }
+      ]
+    },
+    {
+      "id": "30",
+      "reason": "Product defect",
+      "store_name": "ElectroMart",
+      "store_logo": "https://robohash.org/nisiitaqueaperiam.png?size=150x150&set=set1",
+      "store_url": "https://store30.com",
+      "amount": 354.5,
+      "active": false,
+      "decision": "reject",
+      "items": [
+        {
+          "name": "Item 1",
+          "id": "item_30_1",
+          "price": 20,
+          "quantity": 2
+        },
+        {
+          "name": "Item 2",
+          "id": "item_30_2",
+          "price": 35.75,
+          "quantity": 4
+        }
+      ]
+    },
+    {
+      "id": "31",
+      "reason": "Out of stock",
+      "store_name": "Tech Hub",
+      "store_logo": "https://robohash.org/autprovidentnesciunt.png?size=150x150&set=set1",
+      "store_url": "https://store31.com",
+      "amount": 365,
+      "active": true,
+      "decision": "accept",
+      "items": [
+        {
+          "name": "Item 1",
+          "id": "item_31_1",
+          "price": 20,
+          "quantity": 2
+        },
+        {
+          "name": "Item 2",
+          "id": "item_31_2",
+          "price": 35.75,
+          "quantity": 4
+        }
+      ]
+    },
+    {
+      "id": "32",
+      "reason": "Customer canceled",
+      "store_name": "Gadget World",
+      "store_logo": "https://loremflickr.com/200/200?random=1",
+      "store_url": "https://store32.com",
+      "amount": 375.5,
+      "active": false,
+      "decision": "escalate",
+      "items": [
+        {
+          "name": "Item 1",
+          "id": "item_32_1",
+          "price": 20,
+          "quantity": 2
+        },
+        {
+          "name": "Item 2",
+          "id": "item_32_2",
+          "price": 35.75,
+          "quantity": 4
+        }
+      ]
+    },
+    {
+      "id": "33",
+      "reason": "Payment failure",
+      "store_name": "Fashion Zone",
+      "store_logo": "https://loremflickr.com/200/200?random=1",
+      "store_url": "https://store33.com",
+      "amount": 386,
+      "active": true,
+      "decision": "reject",
+      "items": [
+        {
+          "name": "Item 1",
+          "id": "item_33_1",
+          "price": 20,
+          "quantity": 2
+        },
+        {
+          "name": "Item 2",
+          "id": "item_33_2",
+          "price": 35.75,
+          "quantity": 4
+        }
+      ]
+    },
+    {
+      "id": "34",
+      "reason": "Delayed shipping",
+      "store_name": "Home Essentials",
+      "store_logo": "https://loremflickr.com/200/200?random=1",
+      "store_url": "https://store34.com",
+      "amount": 396.5,
+      "active": false,
+      "decision": "accept",
+      "items": [
+        {
+          "name": "Item 1",
+          "id": "item_34_1",
+          "price": 20,
+          "quantity": 2
+        },
+        {
+          "name": "Item 2",
+          "id": "item_34_2",
+          "price": 35.75,
+          "quantity": 4
+        }
+      ]
+    },
+    {
+      "id": "35",
+      "reason": "Product defect",
+      "store_name": "ElectroMart",
+      "store_logo": "https://loremflickr.com/200/200?random=1",
+      "store_url": "https://store35.com",
+      "amount": 407,
+      "active": true,
+      "decision": "escalate",
+      "items": [
+        {
+          "name": "Item 1",
+          "id": "item_35_1",
+          "price": 20,
+          "quantity": 2
+        },
+        {
+          "name": "Item 2",
+          "id": "item_35_2",
+          "price": 35.75,
+          "quantity": 4
+        }
+      ]
+    }
+  ]
+}
