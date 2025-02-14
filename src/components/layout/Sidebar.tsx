@@ -9,7 +9,7 @@ const MobileMenu = lazy(() =>
 );
 
 const routes: SidebarRoute[] = [
-  { href: "/", label: "Dashboard", icon: Home },
+  { href: "/", label: "Refunded Orders", icon: Home },
   { href: "/orders", label: "Orders", icon: Package, disabled: true },
   { href: "/settings", label: "Settings", icon: Settings, disabled: true },
 ];
@@ -21,7 +21,7 @@ export const Sidebar = () => {
     <>
       {/* Desktop Sidebar */}
       <div className="sticky start-0 top-0 hidden min-h-screen w-64 bg-black p-4 text-white md:block">
-        <div className="mb-8 text-xl font-bold">Refund Dashboard</div>
+        <div className="mb-8 text-xl font-bold">Dashboard</div>
         <nav className="space-y-4">
           {routes.map(({ href, label, icon: Icon, disabled }) => (
             <Link
