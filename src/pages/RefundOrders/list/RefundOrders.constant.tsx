@@ -1,5 +1,5 @@
 import { Badge, BadgeVariant } from "@/components/shared/ui/Badge";
-import { ColumnDefinition } from "@/components/shared/Table/Table.type";
+import { ColumnDefinition } from "@/components/shared/ui/Table/Table.type";
 import { RefundOrderType } from "@/pages/RefundOrders/type";
 
 export const refundOrdersTableColumns: ColumnDefinition<RefundOrderType>[] = [

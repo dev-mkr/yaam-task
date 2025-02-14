@@ -3,16 +3,16 @@ import { useQuery } from "@tanstack/react-query";
 import { useSearchParams } from "react-router-dom";
 
 import { httpClient } from "@/services/httpClient";
-import { Table } from "@/components/shared/Table";
-import { SortDirection } from "@/components/shared/Table/Table.type";
+import { Table } from "@/components/shared/ui/Table";
+import { SortDirection } from "@/components/shared/ui/Table/Table.type";
 import { refundOrdersTableColumns } from "./RefundOrders.constant";
 import {
   PaginatedRecordType,
   RefundOrderType,
 } from "@/pages/RefundOrders/type";
-import { TablePagination } from "@/components/shared/Table/components/TablePagination";
+import { TablePagination } from "@/components/shared/ui/Table/components/TablePagination";
 import { GlobalError } from "@/components/shared/GlobalError";
-import { TableSkeletonLoading } from "@/components/shared/Table/components/TableSkeletonLoading";
+import { TableSkeletonLoading } from "@/components/shared/ui/Table/components/TableSkeletonLoading";
 import { RefundOrdersActions } from "./components/RefundOrdersActions";
 
 export const RefundOrders = () => {

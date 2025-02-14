@@ -1,6 +1,6 @@
 import { FC } from "react";
 import clsx from "clsx";
-import { Button } from "../../ui/Button";
+import { Button } from "@/components/shared/ui/Button";
 
 interface Props {
   page: number;
