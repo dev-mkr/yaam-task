@@ -3,6 +3,7 @@ import { ColumnDefinition, SortDirection } from "./Table.type";
 import clsx from "clsx";
 import { ErrorBoundary } from "react-error-boundary";
 import { GlobalError } from "@/components/shared/GlobalError";
+import { ArrowUp, ArrowDown } from "lucide-react";
 
 interface Identifiable {
   id: string;
@@ -43,6 +44,7 @@ export const Table = <T extends Identifiable>({
   return (
     <ErrorBoundary fallback={<GlobalError />}>
       <div
+        data-testid="table"
         className={clsx(
           "container mx-auto max-w-7xl overflow-x-auto rounded-lg border border-gray-200 shadow",
           className
@@ -54,6 +56,7 @@ export const Table = <T extends Identifiable>({
               {columns.map((column) => (
                 <th
                   key={column.accessor}
+                  data-testid={`header-${column.accessor}`}
                   className={clsx(
                     "px-6 py-3 text-xs font-medium uppercase tracking-wider text-gray-500",
                     {
@@ -74,21 +77,32 @@ export const Table = <T extends Identifiable>({
                     )
                   }
                 >
-                  {column.header}
-                  {column.sortable && sortBy === column.accessor && (
-                    <span>
-                      {sortDirection === SortDirection.ASC ? "↑" : "↓"}
-                    </span>
-                  )}
+                  <div className="flex items-center gap-2">
+                    {column.header}
+                    {column.sortable && sortBy === column.accessor && (
+                      <span data-testid="sort-indicator">
+                        {sortDirection === SortDirection.ASC ? (
+                          <ArrowUp size={16} data-testid="arrow-up" />
+                        ) : (
+                          <ArrowDown size={16} data-testid="arrow-down" />
+                        )}
+                      </span>
+                    )}
+                  </div>
                 </th>
               ))}
+              {actions && <th className="px-6 py-3 text-right">Actions</th>}
             </tr>
           </thead>
 
           <tbody className="divide-y divide-gray-200 bg-white">
             {data.length === 0 ? (
-              <tr className="px-6 py-4 text-center text-sm text-gray-500">
-                <td colSpan={columns.length}>
+              <tr data-testid="empty-row">
+                <td
+                  data-testid="empty-state"
+                  colSpan={columns.length + (actions ? 1 : 0)}
+                  className="px-6 py-4 text-center text-sm text-gray-500"
+                >
                   {emptyTableMessage || "No data available"}
                 </td>
               </tr>
@@ -96,6 +110,7 @@ export const Table = <T extends Identifiable>({
               data.map((row) => (
                 <tr
                   key={row.id}
+                  data-testid={`row-${row.id}`}
                   onClick={(e) => handleRowClick(row.id, e)}
                   className={clsx("border-t odd:bg-white even:bg-gray-50", {
                     "cursor-pointer hover:bg-gray-100": !!onRowClick,
@@ -104,6 +119,7 @@ export const Table = <T extends Identifiable>({
                   {columns.map((column) => (
                     <td
                       key={column.accessor}
+                      data-testid={`cell-${column.accessor}-${row.id}`}
                       className={clsx("min-w-28 max-w-16 px-6 py-4 text-sm", {
                         "text-right": column.align === "right",
                         "text-left": !column.align || column.align === "left",
@@ -116,7 +132,14 @@ export const Table = <T extends Identifiable>({
                         : String(row[column.accessor])}
                     </td>
                   ))}
-                  {actions && <td className="px-6 py-4">{actions(row)}</td>}
+                  {actions && (
+                    <td
+                      data-testid={`actions-${row.id}`}
+                      className="px-6 py-4 text-right"
+                    >
+                      {actions(row)}
+                    </td>
+                  )}
                 </tr>
               ))
             )}
