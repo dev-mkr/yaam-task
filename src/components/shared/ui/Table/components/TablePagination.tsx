@@ -17,19 +17,25 @@ export const TablePagination: FC<Props> = ({
 }) => {
   return (
     <div
+      data-testid="pagination"
       className={clsx(
         "container mx-auto flex max-w-7xl items-center justify-between px-4 py-3",
         className
       )}
     >
-      <p>
+      <p data-testid="page-info">
         Page {page} of {totalPages}
       </p>
       <div className="flex gap-2">
-        <Button onClick={() => onPageChange(page - 1)} disabled={page === 1}>
+        <Button
+          data-testid="pagination-previous"
+          onClick={() => onPageChange(page - 1)}
+          disabled={page === 1}
+        >
           Previous
         </Button>
         <Button
+          data-testid="pagination-next"
           onClick={() => onPageChange(page + 1)}
           disabled={page >= totalPages}
         >
