@@ -34,6 +34,37 @@ A responsive and visually appealing webpage that displays a table of refund orde
 - **Toaster Notifications**:
   -  Provide feedback for actions like decision changes or status updates.
 
+## 📂 Project Structure -need reviewing-
+```bash
+src/
+  ├── components/           
+  │   ├── layout/           # Layout components (Sidebar, Header, etc.)
+  │   └── shared/           # Shared components used across pages
+  │       └── ui/           # All reusable UI elements (Buttons, Modals, etc.)
+  ├── pages/                # Application pages
+  │   ├── order/            # Example: Order management pages
+  │   │   ├── list/         # List view of refund orders
+  │   │   │   ├── components/  # Components specific to the list page
+  │   │   │   ├── index.tsx     # List page component
+  │   │   │   └── type.ts       # Optional type definitions for the list page
+  │   │   ├── edit/         # Edit order page
+  │   │   │   ├── components/  # Components specific to the edit page
+  │   │   │   ├── index.tsx     # Edit page component
+  │   │   │   └── type.ts       # Optional type definitions for the edit page
+  │   │   ├── create/       # Create new order page
+  │   │   │   ├── components/  # Components specific to the create page
+  │   │   │   ├── index.tsx     # Create page component
+  │   │   │   └── type.ts       # Optional type definitions for the create page
+  │   │   └── show/         # Detailed order view page
+  │   │       ├── components/  # Components specific to the show page
+  │   │       ├── index.tsx     # Show page component
+  │   │       └── type.ts       # Optional type definitions for the show page
+  ├── services/             # API services
+  ├── styles/               # Global styles
+  └── App.tsx               # Main app entry point
+
+```
+
 ## 🔧 Prerequisites
 - Node.js (v20+)
 - yarn
