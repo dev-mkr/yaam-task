@@ -1,50 +1,88 @@
-# React + TypeScript + Vite
+# Orders table
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## 📸 Screenshot
+![image](https://github.com/user-attachments/assets/463d37b2-2d2b-4a1f-a0fb-7281ee56c838)
 
-Currently, two official plugins are available:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Project Overview
+A responsive and visually appealing webpage that displays a table of refund orders. The project leverages cutting-edge technologies to deliver an optimal user experience and maintainable code structure. The table is built as a highly configurable, reusable component, making it suitable for multiple use cases across the application.
 
-## Expanding the ESLint configuration
+## 🛠 Tech Stack
+- **Technology**: React.js
+- **Build Tool**: Vite
+- **Language**: TypeScript
+- **Styling**: Tailwind CSS
+- **State Management**: Zustand
+- **CI/CD**: Husky & lint-staged
+- **Unit Testing**: Vitest & react-testing-library
+- **internationalization**: i18n
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+## ✨ Features
+- **Responsive Design**: Fully responsive layout that works on all device sizes
+- **Unit testing 🧪**
+   - Fully tested to ensure reliability and maintainability. leverages Vitest and react-testing-library
+- **Reusable Table Component** 
+  - Configurable for various column layouts and data types
+  - Comprehensive error and loading states
+  - Supports custom actions per row.
+  - Typed with TypeScript for props and state.
+  - Immediate State Updates: All actions should reflect on the table immediately without requiring a page reload.
+  - Pagination: paginated 15 records per page and can be customized
+  - message for empty results
+  - Sorting Capabilities 
 
-- Configure the top-level `parserOptions` property like this:
+- **Toaster Notifications**:
+  -  Provide feedback for actions like decision changes or status updates.
 
-```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
+## 🔧 Prerequisites
+- Node.js (v20+)
+- yarn
+
+## 📦 Installation
+
+```bash
+# Clone the repository
+git clone https://github.com//dev-mkr/rabbit-task.git
+
+# Install dependencies
+yarn
+
+# Start development server
+yarn dev
+
+# Start Json server
+yarn server
 ```
 
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
+## 🤝 Contributing
 
-```js
-// eslint.config.js
-import react from 'eslint-plugin-react'
+- Fork the **development** branch
+- Create your feature branch (git checkout -b feature/AmazingFeature)
+- Commit your changes (git commit -m 'Add some AmazingFeature')
+- Push to the branch (git push origin feature/AmazingFeature)
+- Open a Pull Request
 
-export default tseslint.config({
-  // Set the react version
-  settings: { react: { version: '18.3' } },
-  plugins: {
-    // Add the react plugin
-    react,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended rules
-    ...react.configs.recommended.rules,
-    ...react.configs['jsx-runtime'].rules,
-  },
-})
+## 📝 Commit Message Convention
+
+
+This project follows the [Conventional Commits](https://www.conventionalcommits.org/) specification for commit messages. This provides a standardized way to document the purpose and impact of changes in the commit history.
+
+## Commit Message Format
+
+
 ```
+type: subject
+```
+
+### Types
+- **feat**: A new feature.
+- **fix**: A bug fix.
+- **docs**: Documentation-only changes.
+- **style**: Changes that do not affect the meaning of the code (e.g., formatting).
+- **refactor**: A code change that neither fixes a bug nor adds a feature.
+- **perf**: A code change that improves performance.
+- **test**: Adding missing or correcting existing tests.
+- **chore**: Changes to the build process or auxiliary tools and libraries.
+
+For more details, visit the [Conventional Commits website](https://www.conventionalcommits.org/).
+
